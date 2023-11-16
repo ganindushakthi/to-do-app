@@ -1,0 +1,40 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.edit {
+    visibility: hidden;
+}
+
+ul > li:hover {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+ul > li:hover .edit {
+    visibility: visible;
+}
+
+ul > li label {
+    cursor: pointer;
+}
+
+ul > li input:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul > li .delete:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul > li .edit:hover {
+    color: green;
+    cursor: pointer;
+}
+
+main{
+    overflow: auto;
+    overflow-x: hidden;
+}
