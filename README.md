@@ -1,4 +1,4 @@
-# TO DO APP
+# ProTask
 
 This is a simple ToDo app created using HTML, CSS, JavaScript, and Bootstrap.
 
